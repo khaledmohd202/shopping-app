@@ -10,9 +10,6 @@ class CartPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // appBar: AppBar(
-
-      // ),
       body: ListView(
         children: [
           const CustomAppBar(
@@ -32,9 +29,6 @@ class CartPage extends StatelessWidget {
               children: [
                 const CartItemSamples(),
                 Container(
-                  // decoration: BoxDecoration(
-                  //   borderRadius: BorderRadius.circular(10),
-                  // ),
                   margin:
                       const EdgeInsets.symmetric(vertical: 20, horizontal: 15),
                   child: Row(
