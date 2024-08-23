@@ -8,7 +8,7 @@ class ItemBottomNavBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 60,
+      height: 70,
       padding: const EdgeInsets.symmetric(horizontal: 20),
       decoration: BoxDecoration(
         color: Colors.white,
@@ -35,12 +35,13 @@ class ItemBottomNavBar extends StatelessWidget {
           ),
           ElevatedButton.icon(
             onPressed: () {},
-            icon:const Icon(CupertinoIcons.cart_badge_plus),
+            icon:const Icon(CupertinoIcons.cart_badge_plus, color: kShadowColor,),
             label:const Text(
               'Add To Cart',
               style: TextStyle(
                 fontSize: 14,
                 fontWeight: FontWeight.bold,
+                color: kShadowColor,
               ),
             ),
             style: ButtonStyle(

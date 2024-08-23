@@ -19,7 +19,7 @@ class CartPage extends StatelessWidget {
           ),
           Container(
             //temporary size
-            height: 700,
+            height: 500,
             padding: const EdgeInsets.only(top: 15),
             decoration: BoxDecoration(
               color: kShadowColor,

@@ -7,9 +7,10 @@ class CartBottomNavBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BottomAppBar(
+      height: 150,
       child: Container(
-        padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
-        height: 120,
+        // padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
+        height: 150,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
@@ -36,10 +37,10 @@ class CartBottomNavBar extends StatelessWidget {
             ),
             InkWell(
               onTap: () {
-                
+
               },
               child: Container(
-                height: 50,
+                height: 70,
                 width: double.infinity,
                 alignment: Alignment.center,
                 decoration: BoxDecoration(
